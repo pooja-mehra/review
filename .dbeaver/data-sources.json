@@ -1,0 +1,39 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-1784c6f998b-1394c3e1c2ea9afd": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "review",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "5432",
+				"database": "review",
+				"url": "jdbc:postgresql://localhost:5432/review",
+				"home": "postgresql-x64-13",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "false",
+					"@dbeaver-show-template-db@": "false",
+					"@dbeaver-show-unavailable-db@": "false",
+					"@dbeaver-read-all-data-types-db@": "false",
+					"postgresql.dd.plain.string": "false",
+					"postgresql.dd.tag.string": "false"
+				},
+				"auth-model": "native"
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
